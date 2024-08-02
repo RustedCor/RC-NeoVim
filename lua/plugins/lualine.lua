@@ -6,6 +6,10 @@ return {
   opts = {
     options = {
       globalstatus = true,
+      disabled_filetypes = {
+        statusline = {"neo-tree"},
+        winbar = {"neo-tree"}
+      },
     },
     sections = {
       lualine_c = { { "filename", file_status = true, path = 1, } },

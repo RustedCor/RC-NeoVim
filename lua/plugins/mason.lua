@@ -3,9 +3,6 @@ return{
   config = true,
   opts = {
     ensure_installed = {
-      "pyright",
-      "mypy",
-      "ruff",
       "lua-language-server",
     },
   },
