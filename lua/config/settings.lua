@@ -6,5 +6,5 @@ vim.opt.clipboard = "unnamedplus"
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
---Neotree
-vim.keymap.set('n', '<C-m>', ':Neotree toggle<cr>')
+-- NvimTree
+vim.keymap.set('n', '<c-m>', ":NvimTreeToggle<CR>")
