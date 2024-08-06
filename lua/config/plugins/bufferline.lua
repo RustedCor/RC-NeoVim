@@ -6,7 +6,6 @@ function M.setup()
   bufferline.setup({
     options = {
       themable = true,
-      numbers = "buffer_id",
       diagnostics = "nvim_lsp",
       close_icon = "󱄊 ",
       modified_icon = " ",
@@ -27,7 +26,7 @@ function M.setup()
       sort_by = 'id',
       offsets = {
         {
-          filetype = "NvimTree",
+          filetype = "neo-tree",
           text = function()
             return vim.fn.getcwd()
           end,
